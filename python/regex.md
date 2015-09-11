@@ -11,7 +11,7 @@ $ | end of the string, or line |
 + | one or more instances of the preceding item | Note that the + and * symbols are sometimes referred to as Kleene closures, or simply closures.
 * | zero or more instances of the preceding item | Note that the + and * symbols are sometimes referred to as Kleene closures, or simply closures.
 x?| matches an optional x character (in other words, it matches an x zero or one times) |
-(a|b|c) | matches either a or b or c. |
+(a&#124;b&#124;c) | matches either a or b or c. |
 \d | any numeric digit (0 through 9) |
 \D |matches any character except a numeric digit|
 \D+|matches one or more characters that are not digits|
